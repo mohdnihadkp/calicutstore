@@ -7,8 +7,6 @@ export default defineConfig(({ mode }) => {
     return {
       server: {
         allowedHosts: ['calicutstore.onrender.com'],
-        port: 3000,
-        host: '0.0.0.0',
       },
       plugins: [react()],
       define: {
